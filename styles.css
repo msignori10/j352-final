@@ -18,16 +18,19 @@ h2{
   font-size: 35px;
   font-family: 'Khand', sans-serif;
   margin: 15px;
+  padding-left: 200px;
+  margin-bottom: 2;
 }
 
 h3{
-  padding-left: 200px;
-  font-size: 35px;
+  padding-left: 216px;
+  font-size: 25px;
   padding-bottom: -100px;
   font-family: 'Khand', sans-serif;
   margin-top:45px;
-  font-weight: lighter;
+  font-weight: bolder;
   font-style: normal;
+  margin-bottom: 1;
 
 }
 
@@ -37,9 +40,9 @@ h4{
   font-family: 'Khand', sans-serif;
   padding-top: 2px;
   margin:0;
-  text-decoration: underline;
+  text-decoration: underline;color: #6410e3;
   font-style: oblique;
-  font-weight: bold;
+  font-weight:lighter;
 }
 
 p{
@@ -49,15 +52,17 @@ p{
   margin: auto;
   font-size: 15px;
   font-feature-settings: normal;
+  padding-bottom: 5px;
+  padding-top: 0;
 }
 
 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
-  border-radius: 12px;
+  margin-bottom: 0;
   width: 830px;
+  border-color: #6410e3;
 }
 
 span{
@@ -69,15 +74,41 @@ span{
 }
 
 .byline{
-  text-align: center;
+  padding-left: 550px;
   padding-top: 0;
   margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 20px;
+  margin-bottom: 0;
+  font-size: 15px;
   font-weight: bold;
   font-variant: small-caps;
   text-decoration:overline;
   font-family: 'Khand', sans-serif;
   color: #6410e3;
+}
 
+h5{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a{
+  color: #6410e3;
+}
+
+.credit{
+  font-size: 10px;
+  text-align: right;
+  padding-right: 195px;
+  padding-top: -10;
+  padding-bottom: 10px;
+}
+
+.date{
+  font-size: 12px;
+  padding-left: 567px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #6410e3;
 }

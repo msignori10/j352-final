@@ -1,10 +1,9 @@
 h1{
-  padding: inherit;
   font-size: 65px;
   font-style: italic;
   text-align: center;
   max-width: inherit;
-  margin: auto;
+  margin: 0 auto;
   padding-bottom: 5px;
   padding-top: 20px;
   font-family: 'Monda', 'sans-serif';
@@ -18,12 +17,11 @@ h2{
   font-size: 35px;
   font-family: 'Khand', sans-serif;
   margin: 15px;
-  padding-left: 200px;
   margin-bottom: 2;
+  margin:0 auto;
 }
 
 h3{
-  padding-left: 216px;
   font-size: 25px;
   padding-bottom: -100px;
   font-family: 'Khand', sans-serif;
@@ -31,6 +29,8 @@ h3{
   font-weight: bolder;
   font-style: normal;
   margin-bottom: 1;
+  margin:0 auto;
+  padding: inherit;
 
 }
 
@@ -39,21 +39,21 @@ h4{
   font-size: 45px;
   font-family: 'Khand', sans-serif;
   padding-top: 2px;
-  margin:0;
+  margin:0 auto;
   text-decoration: underline;color: #6410e3;
   font-style: oblique;
   font-weight:lighter;
 }
 
 p{
-  padding-left: 300px;
-  padding-right: 300px;
+  width: 50%;
   font-family: 'Khula', sans-serif;
-  margin: auto;
+  margin: 0 auto;
   font-size: 15px;
   font-feature-settings: normal;
-  padding-bottom: 5px;
   padding-top: 0;
+  padding-bottom: 30px;
+  padding: inherit;
 }
 
 img{
@@ -61,7 +61,7 @@ img{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
-  width: 830px;
+  margin:0 auto;
   border-color: #6410e3;
 }
 
@@ -74,7 +74,6 @@ span{
 }
 
 .byline{
-  padding-left: 657px;
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -84,6 +83,8 @@ span{
   text-decoration:overline;
   font-family: 'Khand', sans-serif;
   color: #6410e3;
+  margin: 0 auto;
+  text-align: center;
 }
 
 h5{
@@ -99,16 +100,16 @@ a{
 
 .credit{
   font-size: 10px;
-  text-align: right;
-  padding-right: 285px;
-  padding-top: -15;
+  text-align: center;
   padding-bottom: 10px;
+  margin: 0 auto;
+
 }
 
 .date{
   font-size: 12px;
-  padding-left: 673px;
   margin-top: 0;
   margin-bottom: 20px;
   color: #6410e3;
+  text-align: center;
 }

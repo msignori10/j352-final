@@ -48,13 +48,13 @@ h4{
 }
 
 p{
-  width: 50%;
+  margin-left: 150px;
   font-family: 'Khula', sans-serif;
   margin: 0 auto;
   font-size: 15px;
   font-feature-settings: normal;
   padding-top: 0;
-  padding:inherit;
+  padding-bottom: 10px;
   max-width: 800px;
 }
 
@@ -65,6 +65,7 @@ img{
   margin-bottom: 0;
   margin:0 auto;
   height: auto;
+  width: auto;
   max-width: 800px;
 }
 
@@ -74,6 +75,7 @@ span{
   font-size: 30px;
   padding-right: 5px;
   color: #6410e3;
+  max-width: 800px;
 }
 
 .byline{
@@ -88,6 +90,7 @@ span{
   color: #6410e3;
   margin: 0 auto;
   text-align: center;
+  max-width: 800px;
 }
 
 h5{
@@ -111,7 +114,7 @@ a{
 .date{
   font-size: 12px;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: #6410e3;
   text-align: center;
 }
